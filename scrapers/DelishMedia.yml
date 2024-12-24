@@ -25,7 +25,7 @@ xPathScrapers:
       $primary: //div[@id="primary"]
     scene:
       Title: $primary//h1[@class="entry-title"]
-      Details: $primary//div[@class="entry-content"]//text()
+      Details: $primary//div[@class="entry-content"]
       Code: //@data-postid
       URL: //link[@rel="canonical"]/@href
       Date: 
