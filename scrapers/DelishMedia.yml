@@ -20,6 +20,7 @@ xPathScrapers:
     scene:
       Title: //article[contains(@class, 'post')]//h5[@class="entry-title"]//text()
       URL: //article[contains(@class, 'post')]//div[contains(@class, 'postboxinner')]//a/@href
+      Image: //article[contains(@class, 'post')]//img/@src
   sceneScraper:
     common:
       $primary: //div[@id="primary"]
